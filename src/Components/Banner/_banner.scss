@@ -1,0 +1,11 @@
+.banner {
+  background-image: url('images/banner.jpg');
+  /* Set a specific height */
+  height: 50vh;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}

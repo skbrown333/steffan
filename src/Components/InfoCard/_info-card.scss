@@ -1,0 +1,85 @@
+.info-card {
+  position: relative;
+  background-color: $white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1;
+  min-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 2px 1px -1px rgba(0,0,0,0.12);
+
+  @include respond-to(gt-sm) {
+    padding-left: 150px;
+  }
+
+  .info-card__image {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    background-color: grey;
+  }
+
+  .info-card__content {
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 50px;
+
+    @include respond-to(gt-sm) {
+      width: 50%;
+    }
+    .content-header {
+      font-weight: bold;
+      font-size: 14pt;
+      margin-bottom: 4px;
+      border-bottom: 1px solid $grey-1;
+    }
+    .content-field{
+      font-style: italic;
+      font-size: 8pt;
+      margin-bottom: 8px;
+    }
+    .content-bio{
+      margin-bottom: 16px;
+    }
+    .contact-info{
+      .contact-info__phone{
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        
+        .icon {
+          color: $primary;
+          margin-right: 6px;
+        }
+      }
+      .contact-info__email{
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+
+        .icon {
+          color: $primary;
+          margin-right: 6px;
+        }
+      }
+    }
+  }
+
+  .info-card__footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    .logo {
+      margin: 8px;
+      max-width: 30px;
+      max-height: 30px;
+    }
+  }
+
+}

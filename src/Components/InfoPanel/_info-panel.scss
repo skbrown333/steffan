@@ -1,0 +1,22 @@
+.info-panel {
+  width: 100%;
+  margin-bottom: 10px;
+
+  .info-panel__content {
+    border-bottom: 1px solid $white;
+
+    .expand-icon {
+      color: $white;
+    }
+  }
+
+  .info-panel__header {
+    font-family: 'Roboto', sans-serif;
+    //text-transform: uppercase;
+    color: white;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: $primary; 
+    border-bottom: 1px solid rgb(193, 193, 193);  
+  }
+}
