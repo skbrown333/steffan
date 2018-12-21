@@ -1,0 +1,35 @@
+.company {
+  margin-bottom: 42px;
+  .company__content {
+    max-width: 75%;
+
+    @include respond-to(gt-sm) {
+      max-width: 50%;
+    }
+
+    .company-content__header {
+      font-weight: bold;
+      font-size: 14pt;
+      margin-bottom: 4px;
+      border-bottom: 1px solid $grey-1;
+    }
+    
+    .company-content__position {
+      font-style: italic;
+      font-size: 10pt;
+      margin-bottom: 8px;
+    }
+    
+    .company-content__details {
+      margin-bottom: 12px;
+    }
+    
+    .company-content__skills {
+      .skills-chip {
+      // background-color: #2a4440;
+      // color: $white;
+        margin: 4px;
+      }
+    }
+  }
+}

@@ -18,23 +18,24 @@
   background-color: white;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
   flex: 1;
   min-width: 100%;
   width: 100%;
   box-sizing: border-box;
   padding: 25px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12); }
-  @media only screen and (min-width: 960px) {
-    .info-card {
-      padding-left: 150px; } }
   .info-card .info-card__image {
     min-width: 50px;
     min-height: 50px;
     max-width: 50px;
     max-height: 50px;
     border-radius: 50%;
-    background-color: grey; }
+    background-color: grey;
+    margin-bottom: 42px; }
   .info-card .info-card__content {
     width: 100%;
     margin-left: 10%;
@@ -49,7 +50,7 @@
       border-bottom: 1px solid #dad8d8; }
     .info-card .info-card__content .content-field {
       font-style: italic;
-      font-size: 8pt;
+      font-size: 10pt;
       margin-bottom: 8px; }
     .info-card .info-card__content .content-bio {
       margin-bottom: 16px; }
@@ -58,14 +59,14 @@
       display: flex;
       align-items: center; }
       .info-card .info-card__content .contact-info .contact-info__phone .icon {
-        color: #2a2e44;
+        color: #2A2E44;
         margin-right: 6px; }
     .info-card .info-card__content .contact-info .contact-info__email {
       margin-bottom: 8px;
       display: flex;
       align-items: center; }
       .info-card .info-card__content .contact-info .contact-info__email .icon {
-        color: #2a2e44;
+        color: #2A2E44;
         margin-right: 6px; }
   .info-card .info-card__footer {
     position: absolute;
@@ -80,7 +81,7 @@
   width: 100%;
   margin-bottom: 10px; }
   .info-panel .info-panel__content {
-    border-bottom: 1px solid white; }
+    border-bottom: 2px solid white; }
     .info-panel .info-panel__content .expand-icon {
       color: white; }
   .info-panel .info-panel__header {
@@ -88,7 +89,7 @@
     color: white;
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
-    background-color: #2a2e44;
+    background-color: #2A2E44;
     border-bottom: 1px solid #c1c1c1; }
 
 .banner {
@@ -101,6 +102,38 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative; }
+
+.company {
+  margin-bottom: 42px; }
+  .company .company__content {
+    max-width: 75%; }
+    @media only screen and (min-width: 960px) {
+      .company .company__content {
+        max-width: 50%; } }
+    .company .company__content .company-content__header {
+      font-weight: bold;
+      font-size: 14pt;
+      margin-bottom: 4px;
+      border-bottom: 1px solid #dad8d8; }
+    .company .company__content .company-content__position {
+      font-style: italic;
+      font-size: 10pt;
+      margin-bottom: 8px; }
+    .company .company__content .company-content__details {
+      margin-bottom: 12px; }
+    .company .company__content .company-content__skills .skills-chip {
+      margin: 4px; }
+
+.work-history {
+  padding: 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  min-width: 100%;
+  width: 100%;
+  box-sizing: border-box; }
 
 body {
   background-color: #dedede;

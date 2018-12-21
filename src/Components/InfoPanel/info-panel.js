@@ -14,9 +14,9 @@ class SBExpansionPanel extends Component {
             className="info-panel__header"
             expandIcon={<ExpandMoreIcon className="expand-icon" />}
           >
-            <strong className="">{this.props.children}</strong>
+            <strong className="">{this.props.header}</strong>
           </ExpansionPanelSummary>
-          <ExpansionPanelDetails>hqwieuqhwieuhq</ExpansionPanelDetails>
+          <ExpansionPanelDetails>{this.props.children}</ExpansionPanelDetails>
         </ExpansionPanel>
       </div>
     );
