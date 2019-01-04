@@ -44,7 +44,8 @@
       .info-card .info-card__content {
         width: 50%; } }
     .info-card .info-card__content .content-header {
-      font-weight: bold;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 500;
       font-size: 14pt;
       margin-bottom: 4px;
       border-bottom: 2px solid #2A2E44; }
@@ -148,8 +149,9 @@
     align-items: flex-start;
     text-align: left; }
     .company .company__header .company-title {
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
       width: 100%;
-      font-weight: bold;
+      font-weight: 500;
       font-size: 14pt;
       margin-bottom: 4px;
       border-bottom: 2px solid #2A2E44; }
@@ -176,11 +178,7 @@
         width: 100%;
         height: auto;
         padding: 8px;
-        border: 1px solid #e9f1ff;
-        transition: all .2s ease-in-out; }
-        .company .company__content .company-content__details .detail-bullet:hover {
-          cursor: pointer;
-          transform: scale(1.01); }
+        border: 1px solid #e9f1ff; }
         .company .company__content .company-content__details .detail-bullet:nth-child(2n - 1) {
           background-color: #e9f1ff; }
         .company .company__content .company-content__details .detail-bullet:first-child {
