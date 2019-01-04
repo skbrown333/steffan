@@ -147,20 +147,12 @@
     justify-content: center;
     align-items: flex-start;
     text-align: left; }
-    @media only screen and (min-width: 960px) {
-      .company .company__header {
-        width: 25%;
-        align-items: flex-start;
-        text-align: left; } }
     .company .company__header .company-title {
       width: 100%;
       font-weight: bold;
       font-size: 14pt;
       margin-bottom: 4px;
       border-bottom: 2px solid #2A2E44; }
-      @media only screen and (min-width: 960px) {
-        .company .company__header .company-title {
-          width: auto; } }
     .company .company__header .company-position {
       font-style: italic;
       font-size: 10pt;
@@ -178,12 +170,6 @@
         font-size: 12pt; }
   .company .company__content {
     width: 100%; }
-    @media only screen and (min-width: 600px) {
-      .company .company__content {
-        width: 75%; } }
-    @media only screen and (min-width: 960px) {
-      .company .company__content {
-        width: 50%; } }
     .company .company__content .company-content__details {
       margin-bottom: 16px; }
       .company .company__content .company-content__details .detail-bullet {
@@ -207,7 +193,7 @@
         margin: 4px; }
 
 .work-history {
-  padding: 25px;
+  padding: 10px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -216,6 +202,9 @@
   min-width: 100%;
   width: 100%;
   box-sizing: border-box; }
+  @media only screen and (min-width: 960px) {
+    .work-history {
+      padding: 42px; } }
 
 .donut-chart {
   width: 100%;
