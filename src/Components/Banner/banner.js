@@ -5,7 +5,7 @@ import BannerImage from "../../images/banner.jpeg";
 
 class Banner extends Component {
   render() {
-    return <div class="banner" />;
+    return <div className="banner" />;
   }
 }
 

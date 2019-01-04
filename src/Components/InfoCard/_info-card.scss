@@ -73,14 +73,53 @@
   }
 
   .info-card__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 10px;
     right: 10px;
 
+    .button {
+      font-family: sans-serif;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      margin: 0px 8px;
+      border-radius: 2px;
+      color: white;
+      background-color: $primary;
+      padding: 8px;
+      width: 50px;
+      height: 10px;
+      text-align: center;
+      font-size: 8pt;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      &:hover {
+        box-shadow: 
+        0px 1px 3px 0px rgba(0, 0, 0, 0.2), 
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+      }
+    }
+
     .logo {
+      cursor: pointer;
+      border-radius: 50%;
+      box-shadow: none;
       margin: 8px;
       max-width: 30px;
       max-height: 30px;
+      &:hover {
+        box-shadow: 
+        0px 1px 3px 0px rgba(0, 0, 0, 0.2), 
+        0px 1px 1px 0px rgba(0, 0, 0, 0.14), 
+        0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+      }
     }
   }
 

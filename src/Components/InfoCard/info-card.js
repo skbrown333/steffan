@@ -31,8 +31,10 @@ class InfoCard extends Component {
           </div>
         </div>
         <div className="info-card__footer">
-          <img className="logo" src={LinkedInLogo} />
-          <img className="logo" src={GitHubLogo} />
+          <span className="button">Resume</span>
+          <span className="button">CSV</span>
+          <img className="logo" src={LinkedInLogo} alt="" />
+          <img className="logo" src={GitHubLogo} alt="" />
         </div>
       </div>
     );

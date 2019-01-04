@@ -1,33 +1,71 @@
 .company {
-  margin-bottom: 42px;
-  .company__content {
-    max-width: 75%;
+  width: 100%;
+  margin: 36px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .company__header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
     @include respond-to(gt-sm) {
-      max-width: 50%;
+      width: 25%;
+      align-items: flex-start;
+      text-align: left;
     }
 
-    .company-content__header {
+    .company-title {
+      width: auto;
       font-weight: bold;
       font-size: 14pt;
       margin-bottom: 4px;
       border-bottom: 1px solid $grey-1;
     }
     
-    .company-content__position {
+    .company-position {
       font-style: italic;
       font-size: 10pt;
       margin-bottom: 8px;
     }
+
+    .company-duration {
+      font-size: 10pt;
+      margin-bottom: 16px;
+    }
+
+  }
+  .company__content {
+    width: 100%;
+
+    @include respond-to(gt-xs) {
+     width: 75%;
+    }
+
+    @include respond-to(gt-sm) {
+      width: 50%;
+     }
     
     .company-content__details {
-      margin-bottom: 12px;
+      margin-bottom: 16px;
+
+      .detail-bullet {
+        margin-bottom: 8px;
+      }
     }
     
     .company-content__skills {
+     width: 100%;
+
       .skills-chip {
-      // background-color: #2a4440;
-      // color: $white;
+      background-color: $primary;
+      color: $white;
         margin: 4px;
       }
     }

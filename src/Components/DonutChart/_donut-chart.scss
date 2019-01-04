@@ -1,0 +1,73 @@
+.donut-chart {
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+    @include respond-to(gt-sm) {
+      width: 50%;
+    }
+  
+    .value-text {
+      font-weight: bold;
+      font-size: 40px;
+    }
+  }
+  
+  .legend {
+    display: flex;
+    width: 100%;
+    max-height: 120px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-content: flex-start;
+  
+    .legendValue:hover {
+      cursor: pointer;
+    }
+    .legendValue {
+      display: flex;
+      width: 50%;
+      height: 30px;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0 8px;
+      font-family: 'Roboto', sans-serif;
+  
+      @include respond-to(gt-md) {
+        width: 33%;
+      }
+  
+      @include respond-to(gt-lg) {
+        width: 25%;
+      }
+  
+      svg {
+        width: 20px;
+        height: 20px;
+        min-width: 20px;
+        min-height: 20px;
+      }
+  
+      .valueText {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-left: 8px;
+        white-space: nowrap;
+        color: #2d8dd9;
+        font-size: 12px;;
+
+        @include respond-to(gt-xs) {
+          font-size: 14px;
+        }
+      }
+    }
+  }

@@ -40,10 +40,14 @@ class Company extends Component {
 
     return (
       <div className="company">
-        <div className="company__image" src={this.props.image} />
+        <div className="company__header">
+          <div className="company-title">{this.props.header}</div>
+          <div className="company-position">{this.props.position}</div>
+          <div className="company-duration">
+            {this.props.start} - {this.props.end}
+          </div>
+        </div>
         <div className="company__content">
-          <div className="company-content__header">{this.props.header}</div>
-          <div className="company-content__position">{this.props.position}</div>
           <div className="company-content__details">{getDetails()}</div>
           <div className="company-content__skills">{getSkills()}</div>
         </div>

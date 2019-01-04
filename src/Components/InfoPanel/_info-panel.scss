@@ -3,7 +3,7 @@
   margin-bottom: 10px;
 
   .info-panel__content {
-    border-bottom: 2px solid $white;
+   border-bottom: none;
 
     .expand-icon {
       color: $white;
@@ -12,7 +12,6 @@
 
   .info-panel__header {
     font-family: 'Roboto', sans-serif;
-    //text-transform: uppercase;
     color: white;
     border-top-right-radius: 2px;
     border-top-left-radius: 2px;
