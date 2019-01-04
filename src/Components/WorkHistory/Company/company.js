@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Chip from "@material-ui/core/Chip";
+import CalendarIcon from "@material-ui/icons/CalendarTodayOutlined";
 
 class Company extends Component {
   render() {
@@ -44,6 +45,7 @@ class Company extends Component {
           <div className="company-title">{this.props.header}</div>
           <div className="company-position">{this.props.position}</div>
           <div className="company-duration">
+            <CalendarIcon className="icon" />
             {this.props.start} - {this.props.end}
           </div>
         </div>

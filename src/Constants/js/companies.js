@@ -15,7 +15,7 @@ let companies = [
       "MongoDB",
       "HTML",
       "CSS",
-      "SASS",
+      "Sass",
       "Material",
       "Git",
       "Agile/Scrum"

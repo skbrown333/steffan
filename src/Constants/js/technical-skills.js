@@ -35,7 +35,7 @@ let technical_skills = {
       value: 50
     },
     {
-      name: "SASS",
+      name: "Sass",
       value: 50
     },
     {

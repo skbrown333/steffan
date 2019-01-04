@@ -95,6 +95,7 @@ class DonutChart {
         .enter()
         .append("path")
         .attr("d", arc)
+        .attr("class", "noSelect")
         .attr("fill", (d, i) => {
           return this.color(i);
         })
@@ -134,7 +135,7 @@ class DonutChart {
       this.data.forEach((data, index) => {
         let div = legend
           .append("div")
-          .attr("class", "legendValue")
+          .attr("class", "legendValue noSelect")
           .on("mouseover", () => {
             this.mouseover(data);
           })
@@ -147,6 +148,7 @@ class DonutChart {
           .append("svg")
           .attr("width", 20)
           .attr("height", 20)
+          .attr("class", "noSelect")
           .append("circle")
           .style("fill", () => {
             return this.color(index);

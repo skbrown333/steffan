@@ -12,8 +12,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start;
+    text-align: left;
 
     @include respond-to(gt-sm) {
       width: 25%;
@@ -22,22 +22,36 @@
     }
 
     .company-title {
-      width: auto;
+      width: 100%;
       font-weight: bold;
       font-size: 14pt;
       margin-bottom: 4px;
-      border-bottom: 1px solid $grey-1;
+      border-bottom: 2px solid $primary;
+
+      @include respond-to(gt-sm) {
+        width: auto;
+      }
     }
     
     .company-position {
       font-style: italic;
       font-size: 10pt;
-      margin-bottom: 8px;
+      margin-bottom: 14px;
     }
 
     .company-duration {
+      display: flex;
+      align-items: center;
       font-size: 10pt;
+      line-height: 1.5;
       margin-bottom: 16px;
+
+      .icon {
+        color: $secondary;
+        margin-right: 4px;
+        align-self: stretch;
+        font-size: 12pt;
+      }
     }
 
   }
@@ -56,7 +70,22 @@
       margin-bottom: 16px;
 
       .detail-bullet {
-        margin-bottom: 8px;
+        width: 100%;
+        height: auto;
+        padding: 8px;
+        border: 2px solid $grey-2;
+
+        &:nth-child(2n - 1) {
+          background-color: $grey-2;
+        }
+        &:first-child {
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+        }
+        &:last-child {
+          border-bottom-left-radius: 2px;
+          border-bottom-right-radius: 2px;
+        }
       }
     }
     
@@ -64,8 +93,8 @@
      width: 100%;
 
       .skills-chip {
-      background-color: $primary;
-      color: $white;
+        background-color: $secondary;
+        color: $white;
         margin: 4px;
       }
     }
