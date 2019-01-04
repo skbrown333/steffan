@@ -176,9 +176,13 @@
         width: 100%;
         height: auto;
         padding: 8px;
-        border: 2px solid #ededed; }
+        border: 1px solid #e9f1ff;
+        transition: all .2s ease-in-out; }
+        .company .company__content .company-content__details .detail-bullet:hover {
+          cursor: pointer;
+          transform: scale(1.01); }
         .company .company__content .company-content__details .detail-bullet:nth-child(2n - 1) {
-          background-color: #ededed; }
+          background-color: #e9f1ff; }
         .company .company__content .company-content__details .detail-bullet:first-child {
           border-top-left-radius: 2px;
           border-top-right-radius: 2px; }

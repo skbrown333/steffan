@@ -55,10 +55,16 @@
         width: 100%;
         height: auto;
         padding: 8px;
-        border: 2px solid $grey-2;
+        border: 1px solid $blue-1;
+        transition: all .2s ease-in-out;
+
+        &:hover {
+          cursor: pointer;
+          transform: scale(1.01);
+        }
 
         &:nth-child(2n - 1) {
-          background-color: $grey-2;
+          background-color: $blue-1;
         }
         &:first-child {
           border-top-left-radius: 2px;
