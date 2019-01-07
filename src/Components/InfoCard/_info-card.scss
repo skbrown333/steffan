@@ -98,15 +98,14 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 10px;
-    right: 10px;
+    bottom: 20px;
+    right: 50px;
 
     .button {
-      color: $secondary;
+      color: $white;
+      background-color: $secondary;
       border-radius: 2px;
       text-decoration: none;
-      margin: 4px;
-      padding: 0px;
     }
   }
 

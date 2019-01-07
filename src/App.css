@@ -113,21 +113,13 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 10px;
-    right: 10px; }
+    bottom: 20px;
+    right: 50px; }
     .info-card .info-card__footer .button {
-      color: #34C85F;
+      color: white;
+      background-color: #34C85F;
       border-radius: 2px;
-      text-decoration: none;
-      margin: 4px;
-      padding: 0px; }
-    .info-card .info-card__footer .logo {
-      cursor: pointer;
-      border-radius: 50%;
-      box-shadow: none;
-      margin: 8px;
-      max-width: 30px;
-      max-height: 30px; }
+      text-decoration: none; }
 
 .project-card {
   width: 100%;

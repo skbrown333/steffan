@@ -35,7 +35,7 @@ class InfoCard extends Component {
             </div>
           </div>
           <div className="info-card__footer">
-            <Button className="button">
+            <Button className="button" variant="contained">
               <a className="button" href={Resume} target="_blank">
                 Resume
               </a>
