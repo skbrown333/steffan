@@ -12,10 +12,27 @@
     align-items: center;
     box-sizing: border-box;
     width: 100%;
+    max-width: 1200px;
     padding: 5px; }
-    @media only screen and (min-width: 960px) {
-      .main .project-container {
-        justify-content: space-around; } }
+    .main .project-container .hubot-assistant {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #65B7CC; }
+      .main .project-container .hubot-assistant img {
+        height: 200px; }
+    .main .project-container .poker {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #e65452; }
+      .main .project-container .poker img {
+        height: 200px; }
+  .main .footer {
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    background-color: #484258; }
 
 .info-card__padding {
   padding: 5px; }
@@ -133,28 +150,13 @@
   .project-card .project-card__description {
     margin: 20px; }
   .project-card .project-card__topics .topics-chip {
-    background-color: white;
-    color: #34C85F;
+    background-color: #34C85F;
+    color: white;
     border-color: #34C85F;
     margin: 8px; }
 
-.info-panel {
-  width: 100%;
-  margin-bottom: 10px; }
-  .info-panel .info-panel__content {
-    border-bottom: none; }
-    .info-panel .info-panel__content .expand-icon {
-      color: white; }
-  .info-panel .info-panel__header {
-    font-family: 'Roboto', sans-serif;
-    color: white;
-    border-top-right-radius: 2px;
-    border-top-left-radius: 2px;
-    background-color: #484258;
-    border-bottom: 1px solid #c1c1c1; }
-
 .banner {
-  background: url(images/Desk.jpg) no-repeat center center;
+  background: url(images/desk.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -184,100 +186,6 @@
     z-index: 10;
     width: 80vw;
     max-width: 700px; }
-
-.soft-skills {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
-
-.technical-skills {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center; }
-
-.company {
-  width: 100%;
-  margin: 36px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: row;
-  flex-wrap: wrap; }
-  .company .company__header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    text-align: left; }
-    .company .company__header .company-title {
-      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-      width: 100%;
-      font-weight: 500;
-      font-size: 14pt;
-      margin-bottom: 4px;
-      border-bottom: 2px solid #484258; }
-    .company .company__header .company-position {
-      font-style: italic;
-      font-size: 10pt;
-      margin-bottom: 14px; }
-    .company .company__header .company-duration {
-      display: flex;
-      align-items: center;
-      font-size: 10pt;
-      line-height: 1.5;
-      margin-bottom: 16px; }
-      .company .company__header .company-duration .icon {
-        color: #34C85F;
-        margin-right: 4px;
-        align-self: stretch;
-        font-size: 12pt; }
-  .company .company__content {
-    width: 100%; }
-    .company .company__content .company-content__details {
-      margin-bottom: 16px; }
-      .company .company__content .company-content__details .detail-bullet {
-        width: 100%;
-        height: auto;
-        padding: 8px;
-        border: 1px solid #e9f1ff; }
-        .company .company__content .company-content__details .detail-bullet:nth-child(2n - 1) {
-          background-color: #e9f1ff; }
-        .company .company__content .company-content__details .detail-bullet:first-child {
-          border-top-left-radius: 2px;
-          border-top-right-radius: 2px; }
-        .company .company__content .company-content__details .detail-bullet:last-child {
-          border-bottom-left-radius: 2px;
-          border-bottom-right-radius: 2px; }
-    .company .company__content .company-content__skills {
-      width: 100%; }
-      .company .company__content .company-content__skills .skills-chip {
-        background-color: white;
-        color: #34C85F;
-        border-color: #34C85F;
-        margin: 4px; }
-
-.work-history {
-  padding: 10px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex: 1;
-  min-width: 100%;
-  width: 100%;
-  box-sizing: border-box; }
-  @media only screen and (min-width: 960px) {
-    .work-history {
-      padding: 42px; } }
 
 .donut-chart {
   width: 100%;

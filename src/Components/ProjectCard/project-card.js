@@ -16,9 +16,7 @@ class ProjectCard extends Component {
 
       for (var i = 0; i < topics.length; i++) {
         let skill = topics[i];
-        let chip = (
-          <Chip label={skill} className="topics-chip" variant="outlined" />
-        );
+        let chip = <Chip label={skill} className="topics-chip" />;
         chips.push(chip);
       }
 
