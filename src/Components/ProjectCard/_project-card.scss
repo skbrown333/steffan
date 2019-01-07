@@ -1,0 +1,40 @@
+.project-card {
+    width: 100%;
+    height: 400px;;
+
+    margin-bottom: 10px;
+    position: relative;
+
+    @include respond-to(gt-xs) {
+        width: calc(50% - 5px);
+    }
+
+    @include respond-to(gt-sm) {
+        width: 32%;
+        max-width: 500px;
+    }
+
+    .project-card__image {
+        height: 50%;
+        .banner {
+            height: 100%;
+
+            .logo {
+                width: 80%;
+            }
+        }
+    }
+
+    .project-card__description {
+        margin: 20px;
+    }
+
+    .project-card__topics {
+        .topics-chip {
+            background-color: $white;
+            color: $secondary;
+            border-color: $secondary;
+            margin: 8px;
+        }
+    }
+}

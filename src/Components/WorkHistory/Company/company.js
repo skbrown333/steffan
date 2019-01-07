@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 import Chip from "@material-ui/core/Chip";
-import CalendarIcon from "@material-ui/icons/CalendarTodayOutlined";
+import CalendarIcon from "@material-ui/icons/CalendarToday";
 
 class Company extends Component {
   render() {
@@ -32,7 +32,9 @@ class Company extends Component {
 
       for (var i = 0; i < skills.length; i++) {
         let skill = skills[i];
-        let chip = <Chip label={skill} className="skills-chip" />;
+        let chip = (
+          <Chip label={skill} className="skills-chip" variant="outlined" />
+        );
         chips.push(chip);
       }
 

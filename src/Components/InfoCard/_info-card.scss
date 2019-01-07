@@ -1,3 +1,6 @@
+.info-card__padding {
+  padding: 5px;
+}
 .info-card {
   position: relative;
   background-color: $white;
@@ -11,19 +14,29 @@
   min-width: 100%;
   width: 100%;
   box-sizing: border-box;
-  padding: 25px;
+  padding: 10px;
   box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.2), 
               0px 1px 1px 0px rgba(0,0,0,0.14), 
               0px 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 2px;
+
+  @include respond-to(gt-sm) {
+    padding: 42px;
+  }
 
   .info-card__image {
-    min-width: 50px;
-    min-height: 50px;
-    max-width: 50px;
-    max-height: 50px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
-    background-color: grey;
+    background-color: white;
+    border: 8px solid $grey-1;
     margin-bottom: 42px;
+    margin-top: 42px;
+
+    @include respond-to(gt-sm) {
+      width: 150px;
+      height: 150px;
+    }
   }
 
   .info-card__content {
@@ -35,36 +48,47 @@
       width: 50%;
     }
     .content-header {
-      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-family: "futura";
 
-      font-weight: 500;
-      font-size: 14pt;
+      font-weight: 600;
+      font-size: 36pt;
+      color: $primary;
       margin-bottom: 4px;
-      border-bottom: 2px solid $primary;
     }
     .content-field{
+      padding: 6px;
       font-style: italic;
       font-size: 10pt;
       margin-bottom: 8px;
     }
     .content-bio{
+      padding: 6px;
       margin-bottom: 16px;
     }
     .contact-info{
+      padding: 6px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+      .contact-info__email{
+        margin: 8px 16px 0px 0px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+      }
+
       .contact-info__phone{
-        margin-bottom: 8px;
+        margin: 8px 16px 16px 0px;
+        margin-left: 0;
         display: flex;
         align-items: center;
         
       }
-      .contact-info__email{
-        margin-bottom: 8px;
-        display: flex;
-        align-items: center;
-      }
       .icon {
         color: $secondary;
-        margin-right: 6px;
+        margin-right: 4px;
       }
     }
   }
@@ -79,15 +103,10 @@
 
     .button {
       color: $secondary;
+      border-radius: 2px;
       text-decoration: none;
-
-      @include respond-to(gt-sm) {
-        margin-right: 20px;
-      }
-    
-      &:first-of-type {
-        margin-right: unset;
-      }
+      margin: 4px;
+      padding: 0px;
     }
 
     .logo {
