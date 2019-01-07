@@ -92,7 +92,7 @@
     .info-card .info-card__content .contact-info {
       padding: 6px;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       align-items: flex-start; }
       .info-card .info-card__content .contact-info .contact-info__email {
@@ -109,16 +109,12 @@
         color: #34C85F;
         margin-right: 4px; }
   .info-card .info-card__footer {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    bottom: 20px;
-    right: 50px; }
+    justify-content: flex-end;
+    align-items: center; }
     .info-card .info-card__footer .button {
-      color: white;
-      background-color: #34C85F;
-      border-radius: 2px;
+      color: #34C85F;
       text-decoration: none; }
 
 .project-card {
