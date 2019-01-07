@@ -40,13 +40,6 @@ class InfoCard extends Component {
                 Resume
               </a>
             </Button>
-            <Button className="button">
-              <a className="button" href={CoverLetter} target="_blank">
-                Cover Letter
-              </a>
-            </Button>
-            <img className="logo noSelect" src={LinkedInLogo} alt="" />
-            <img className="logo noSelect" src={GitHubLogo} alt="" />
           </div>
         </div>
       </div>
