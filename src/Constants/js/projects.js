@@ -10,6 +10,7 @@ let projects = [
     title: "https://steffan.me",
     image: null,
     links: {
+      url: "https://github.com/skbrown333/steffan",
       github: "https://github.com/skbrown333/steffan"
     },
     description: `Personal portfolio created using the Javascript front-end framework React.`,
@@ -24,6 +25,7 @@ let projects = [
     title: "Hubot Assistant",
     image: HubotImage,
     links: {
+      url: "https://www.npmjs.com/package/hubot-assistant",
       github: "https://github.com/skbrown333/hubot-assistant",
       npm: "https://www.npmjs.com/package/hubot-assistant"
     },
@@ -38,6 +40,7 @@ let projects = [
     title: "Poker Hand Evaluation",
     image: PlaceholderImageBlue,
     links: {
+      url: "https://github.com/skbrown333/Poker-Hand-Evaluation",
       github: "https://github.com/skbrown333/Poker-Hand-Evaluation"
     },
     description: `A simple Javascript application that generates a poker hand and ranks it.`,
@@ -50,6 +53,7 @@ let projects = [
     title: "Hubot Analyitcs",
     image: HubotImage,
     links: {
+      url: "https://www.npmjs.com/package/hubot-active-users",
       github: "https://github.com/skbrown333/hubot-analytics",
       npm: "https://www.npmjs.com/package/hubot-active-users"
     },
