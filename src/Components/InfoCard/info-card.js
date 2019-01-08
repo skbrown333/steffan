@@ -2,9 +2,6 @@ import React, { Component } from "react";
 
 /* Misc */
 import Resume from "../../images/resume.pdf";
-import CoverLetter from "../../images/cover-letter.pdf";
-import GitHubLogo from "../../images/github-logo.png";
-import LinkedInLogo from "../../images/linkedin-logo.png";
 import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/AlternateEmailSharp";
 import Button from "@material-ui/core/Button";

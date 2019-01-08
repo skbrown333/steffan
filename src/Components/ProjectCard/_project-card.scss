@@ -2,40 +2,86 @@
     width: 100%;
     height: 400px;
     border-radius: 2px !important;
-
     margin-bottom: 10px;
     position: relative;
 
-    @include respond-to(gt-xs) {
+    @include respond-to(sm) {
         width: calc(50% - 5px);
+        margin-right: 5px;
+
+        &:nth-child(2n+1) {
+            margin-left: 2px;
+        }
+        &:nth-child(2n+2) {
+          margin-right: 0px;
+        }
     }
 
     @include respond-to(gt-sm) {
-        width: 32%;
+        width: calc(33% - 10px);
+        margin-right: 10px;
         max-width: 500px;
-    }
 
-    .project-card__image {
-        height: 50%;
-        .banner {
-            height: 100%;
-
-            .logo {
-                width: 80%;
-            }
+        &:nth-child(3n+1) {
+            margin-left: 10px;
+        }
+        &:nth-child(3n+3) {
+          margin-right: 0px;
         }
     }
+
+    .project-card__image div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        height: 200px;
+    }
+
+    .banner {
+        height: 100%;
+
+        .logo {
+            width: 80%;
+        }
+    }
+  
+    .wedding { 
+        background-color: $blue-2;
+        img { height: 200px; }
+    }
+  
+    .hubot-assistant {
+        background-color: $orange-1;
+        img { height: 100px; }
+    }
+
+    .hubot-analytics {
+        background-color: $orange-1;
+        img { height: 100px; }
+    }
+  
+    .poker {
+        background-color: $red-1;
+        img { height: 200px; }
+    }
+    
 
     .project-card__description {
         margin: 20px;
     }
 
     .project-card__topics {
+        position: absolute;
+        bottom: 4px;
+        left: 4px;
+
         .topics-chip {
-            background-color: $secondary;
-            color: $white;
+            background-color: $white;
+            color: $secondary;
             border-color: $secondary;
-            margin: 8px;
+            border-radius: 2px;
+            margin: 2px;
         }
     }
 }
