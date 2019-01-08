@@ -37,26 +37,10 @@ let projects = [
     topics: ["Node.js"],
     options: {}
   },
-  /* megan-steffan.wedding */
-  {
-    name: "wedding",
-    image: PlaceholderImageBlue,
-    links: {
-      url: "http://megan-steffan.wedding",
-      github: "https://github.com/skbrown333/wedding-site-REACT"
-    },
-    description: `Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-    ut aliquip ex ea commodo consequat.`,
-    topics: ["React"],
-    options: {}
-  },
   /* Poker Hand Evaluation */
   {
     name: "poker",
-    image: PlaceholderImageRed,
+    image: PlaceholderImageBlue,
     links: {
       github: "https://github.com/skbrown333/Poker-Hand-Evaluation"
     },

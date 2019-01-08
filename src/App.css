@@ -142,10 +142,6 @@
     height: 100%; }
     .project-card .banner .logo {
       width: 80%; }
-  .project-card .wedding {
-    background-color: #65B7CC; }
-    .project-card .wedding img {
-      height: 200px; }
   .project-card .hubot-assistant {
     background-color: #f7ae40; }
     .project-card .hubot-assistant img {
@@ -155,7 +151,7 @@
     .project-card .hubot-analytics img {
       height: 100px; }
   .project-card .poker {
-    background-color: #e65452; }
+    background-color: #65B7CC; }
     .project-card .poker img {
       height: 200px; }
   .project-card .project-card__description {
