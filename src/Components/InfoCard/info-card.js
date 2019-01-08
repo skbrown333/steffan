@@ -2,7 +2,6 @@ import React, { Component } from "react";
 
 /* Misc */
 import Resume from "../../images/resume.pdf";
-import PhoneIcon from "@material-ui/icons/Phone";
 import EmailIcon from "@material-ui/icons/AlternateEmailSharp";
 import Button from "@material-ui/core/Button";
 
@@ -25,9 +24,6 @@ class InfoCard extends Component {
               <div className="contact-info__email">
                 <EmailIcon className="icon" />
                 skbrown333@gmail.com
-              </div>
-              <div className="contact-info__phone">
-                <PhoneIcon className="icon" /> +1-(651)-354-5613
               </div>
             </div>
           </div>
