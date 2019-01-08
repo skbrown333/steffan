@@ -37,9 +37,8 @@ class ProjectCard extends Component {
       if (self.links.url) {
         return (
           <div className={self.name}>
-            <a href={self.links.url}>
-              <img src={self.image} alt="" />
-            </a>
+            <a href={self.links.url} target="_blank" />
+            <img src={self.image} alt="" />
           </div>
         );
       }

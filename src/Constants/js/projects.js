@@ -42,7 +42,7 @@ let projects = [
     name: "wedding",
     image: PlaceholderImageBlue,
     links: {
-      url: "megan-steffan.wedding",
+      url: "http://megan-steffan.wedding",
       github: "https://github.com/skbrown333/wedding-site-REACT"
     },
     description: `Lorem ipsum dolor sit amet, 

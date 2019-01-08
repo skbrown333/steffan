@@ -36,11 +36,17 @@
         align-items: center;
         overflow: hidden;
         height: 200px;
+
+        a {
+            position: absolute;
+            margin: auto;
+            width: 100%;
+            height: 200px;
+        }
     }
 
     .banner {
         height: 100%;
-
         .logo {
             width: 80%;
         }
