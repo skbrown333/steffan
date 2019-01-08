@@ -7,15 +7,12 @@ let projects = [
   {
     /* https://steffan.me */
     name: "develop",
+    title: "https://steffan.me",
     image: null,
     links: {
       github: "https://github.com/skbrown333/steffan"
     },
-    description: `Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-    ut aliquip ex ea commodo consequat.`,
+    description: `Personal portfolio created using the Javascript front-end framework React.`,
     topics: ["React"],
     options: {
       banner: true
@@ -24,47 +21,40 @@ let projects = [
   /* Hubot Assistant */
   {
     name: "hubot-assistant",
+    title: "Hubot Assistant",
     image: HubotImage,
     links: {
       github: "https://github.com/skbrown333/hubot-assistant",
       npm: "https://www.npmjs.com/package/hubot-assistant"
     },
-    description: `Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-    ut aliquip ex ea commodo consequat.`,
+    description: `A Hubot function leveraging the Google Assistant API in order to bring
+    a text based assistant to Slack.`,
     topics: ["Node.js"],
     options: {}
   },
   /* Poker Hand Evaluation */
   {
     name: "poker",
+    title: "Poker Hand Evaluation",
     image: PlaceholderImageBlue,
     links: {
       github: "https://github.com/skbrown333/Poker-Hand-Evaluation"
     },
-    description: `Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit, sed do 
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-    ut aliquip ex ea commodo consequat.`,
+    description: `A simple Javascript application that generates a poker hand and ranks it.`,
     topics: ["Javascript"],
     options: {}
   },
   /* Hubot Active Users */
   {
     name: "hubot-analytics",
+    title: "Hubot Analyitcs",
     image: HubotImage,
     links: {
       github: "https://github.com/skbrown333/hubot-analytics",
       npm: "https://www.npmjs.com/package/hubot-active-users"
     },
-    description: `Lorem ipsum dolor sit amet, 
-      consectetur adipiscing elit, sed do 
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-      ut aliquip ex ea commodo consequat.`,
+    description: `A Hubot function that uses Google Analytics to get 
+    a count of a websites active users.`,
     topics: ["Node.js"],
     options: {}
   }

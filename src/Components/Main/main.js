@@ -13,6 +13,7 @@ class Main extends Component {
             name={project.name}
             image={project.image}
             links={project.links}
+            title={project.title}
             description={project.description}
             topics={project.topics}
             options={project.options}
@@ -28,7 +29,6 @@ class Main extends Component {
         <Banner />
         <InfoCard />
         <ul className="project-container">{getProjects()}</ul>
-        <div className="footer" />
       </div>
     );
   }

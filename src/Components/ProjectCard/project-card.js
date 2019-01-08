@@ -2,8 +2,10 @@ import React, { Component } from "react";
 
 import Card from "@material-ui/core/Card";
 import Chip from "@material-ui/core/Chip";
-
 import Banner from "../../Components/Banner/banner";
+
+import GithubLogo from "../../images/git-logo.svg";
+import NpmLogo from "../../images/npm-logo.svg";
 
 class ProjectCard extends Component {
   render() {
@@ -50,7 +52,22 @@ class ProjectCard extends Component {
     }
 
     function getLinks() {
-      let links = [];
+      let links = [<div className="project-card__title">{self.title}</div>];
+      if (self.links.npm) {
+        links.push(
+          <a href={self.links.npm} target="_blank">
+            <img src={NpmLogo} alt="" />
+          </a>
+        );
+      }
+      if (self.links.github) {
+        links.push(
+          <a href={self.links.github} target="_blank">
+            <img src={GithubLogo} alt="" />
+          </a>
+        );
+      }
+      return links;
     }
 
     return (
