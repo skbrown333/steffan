@@ -1,7 +1,6 @@
 import PlaceholderImageBlue from "../../images/computer-blue.jpg";
 import PlaceholderImageRed from "../../images/computer-red.jpg";
 import HubotImage from "../../images/hubot.svg";
-import Wedding from "../../images/wedding-ring.jpg";
 
 let projects = [
   {
@@ -34,19 +33,6 @@ let projects = [
     topics: ["Node.js"],
     options: {}
   },
-  /* Poker Hand Evaluation */
-  {
-    name: "poker",
-    title: "Poker Hand Evaluation",
-    image: PlaceholderImageBlue,
-    links: {
-      url: "https://github.com/skbrown333/Poker-Hand-Evaluation",
-      github: "https://github.com/skbrown333/Poker-Hand-Evaluation"
-    },
-    description: `A simple Javascript application that generates a poker hand and ranks it.`,
-    topics: ["Javascript"],
-    options: {}
-  },
   /* Hubot Active Users */
   {
     name: "hubot-analytics",
@@ -60,6 +46,19 @@ let projects = [
     description: `A Hubot function that uses Google Analytics to get 
     a count of a websites active users.`,
     topics: ["Node.js"],
+    options: {}
+  },
+  /* Poker Hand Evaluation */
+  {
+    name: "poker",
+    title: "Poker Hand Evaluation",
+    image: PlaceholderImageBlue,
+    links: {
+      url: "https://github.com/skbrown333/Poker-Hand-Evaluation",
+      github: "https://github.com/skbrown333/Poker-Hand-Evaluation"
+    },
+    description: `A simple Javascript application that generates a poker hand and ranks it.`,
+    topics: ["Javascript"],
     options: {}
   }
 ];

@@ -73,11 +73,15 @@
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
+        transition: all .2s ease-in-out;
 
         a {
             padding: 8px;
             img {
                 height: 25px;
+                &:hover {
+                    transform: scale(1.1);
+                }
             }
         }
     }
