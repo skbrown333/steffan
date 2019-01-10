@@ -6,7 +6,7 @@ let projects = [
   {
     /* https://steffan.me */
     name: "develop",
-    title: "https://steffan.me",
+    title: "steffan.me",
     image: null,
     links: {
       url: "https://github.com/skbrown333/steffan",

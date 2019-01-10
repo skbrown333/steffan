@@ -4,13 +4,16 @@ import React, { Component } from "react";
 import Resume from "../../images/resume.pdf";
 import EmailIcon from "@material-ui/icons/AlternateEmailSharp";
 import Button from "@material-ui/core/Button";
+import ProfileIcon from "../../images/profile-icon.png";
 
 class InfoCard extends Component {
   render() {
     return (
       <div className="info-card__padding">
         <div className="info-card">
-          <div className="info-card__image" />
+          <div className="info-card__image">
+            <img src={ProfileIcon} alt="" />
+          </div>
           <div className="info-card__content">
             <div className="content-header">Steffan Brown</div>
             <div className="content-field">Software Developer</div>
