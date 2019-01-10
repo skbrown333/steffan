@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "3543e5c754e412b1927b44b4fe84f8c9",
-    "url": "/static/media/git-logo.3543e5c7.svg"
+    "revision": "32ba610b6480cfff434eb9460a849554",
+    "url": "/static/media/develop.32ba610b.svg"
   },
   {
-    "revision": "5b9c0a303f2f68282de1",
-    "url": "/static/css/main.fbdc9e50.chunk.css"
+    "revision": "e08e634c424b8a1aacb3",
+    "url": "/static/css/main.5768442a.chunk.css"
   },
   {
-    "revision": "17537719da3e6b650215",
-    "url": "/static/js/1.17537719.chunk.js"
+    "revision": "bc7646224237e853e61f",
+    "url": "/static/js/1.bc764622.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -24,12 +24,16 @@ self.__precacheManifest = [
     "url": "/static/media/resume.d41d8cd9.pdf"
   },
   {
-    "revision": "32ba610b6480cfff434eb9460a849554",
-    "url": "/static/media/develop.32ba610b.svg"
+    "revision": "5a7c2fa9d9dcf393c6ec7795d174de8a",
+    "url": "/static/media/profile-icon.5a7c2fa9.png"
   },
   {
-    "revision": "5b9c0a303f2f68282de1",
-    "url": "/static/js/main.5b9c0a30.chunk.js"
+    "revision": "e08e634c424b8a1aacb3",
+    "url": "/static/js/main.e08e634c.chunk.js"
+  },
+  {
+    "revision": "3543e5c754e412b1927b44b4fe84f8c9",
+    "url": "/static/media/git-logo.3543e5c7.svg"
   },
   {
     "revision": "6f7aeee8bb8ee61edfd134eef3152e22",
@@ -44,15 +48,11 @@ self.__precacheManifest = [
     "url": "/static/media/computer-red.aab12d67.jpg"
   },
   {
-    "revision": "fca92b58d097e813b8cf22006d71e0c2",
-    "url": "/static/media/wedding-ring.fca92b58.jpg"
-  },
-  {
     "revision": "bf1e9a8a21c3804c7264438821d8f16d",
     "url": "/static/media/desk.bf1e9a8a.jpg"
   },
   {
-    "revision": "71c6dc0519d33e8e7e7b4771829f39a2",
+    "revision": "0eb41695527253daa765135823a64f9d",
     "url": "/index.html"
   }
 ];
