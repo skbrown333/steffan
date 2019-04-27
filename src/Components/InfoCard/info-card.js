@@ -18,10 +18,13 @@ class InfoCard extends Component {
             <div className="content-header">Steffan Brown</div>
             <div className="content-field">Software Developer</div>
             <div className="content-bio">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
-              ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
-              accumsan lacus vel facilisis.
+              I am a full stack software developer specializing in the
+              MEAN/MEARN stack. My passion for software development pushes me to
+              continuously grow and learn about new and evolving technologies.
+              Outside of the office, I spend time on side projects to explore
+              relevant topics and to step outside of my comfort zone. This has
+              helped me to grow as a developer and has been an integral part of
+              my education.
             </div>
             <div className="contact-info">
               <div className="contact-info__email">

@@ -1,8 +1,23 @@
 import PlaceholderImageBlue from "../../images/computer-blue.jpg";
-import PlaceholderImageRed from "../../images/computer-red.jpg";
 import HubotImage from "../../images/hubot.svg";
+import EventImage from "../../images/event_app.png";
 
 let projects = [
+  {
+    /* https://steffan.me */
+    name: "event-app",
+    title: "Event App",
+    image: EventImage,
+    links: {
+      url: "https://github.com/skbrown333/EventApp",
+      github: "https://github.com/skbrown333/EventApp"
+    },
+    description: `React project for creating/viewing events on a map.`,
+    topics: ["MEARN"],
+    options: {
+      banner: false
+    }
+  },
   {
     /* https://steffan.me */
     name: "develop",

@@ -66,6 +66,14 @@
         background-color: $blue-2;
         img { height: 200px; }
     }
+
+    .event-app {
+        background-color: $white;
+        img { 
+            height: 200px; 
+            width: 100%;
+        }
+    }
     
     .project-card__links {
         width: 100%;
